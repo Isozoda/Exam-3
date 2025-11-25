@@ -247,6 +247,9 @@
   .mb-\[20px\] {
     margin-bottom: 20px;
   }
+  .mb-\[25px\] {
+    margin-bottom: 25px;
+  }
   .mb-\[30\] {
     margin-bottom: 30;
   }
@@ -307,6 +310,12 @@
   .h-4 {
     height: calc(var(--spacing) * 4);
   }
+  .h-\[58\] {
+    height: 58;
+  }
+  .h-\[58px\] {
+    height: 58px;
+  }
   .h-\[665px\] {
     height: 665px;
   }
@@ -336,6 +345,12 @@
   }
   .w-\[90\%\] {
     width: 90%;
+  }
+  .w-\[386px\] {
+    width: 386px;
+  }
+  .w-\[388px\] {
+    width: 388px;
   }
   .border-collapse {
     border-collapse: collapse;
@@ -449,11 +464,30 @@
   .rounded-tl-2xl {
     border-top-left-radius: var(--radius-2xl);
   }
+  .rounded-tl-lg {
+    border-top-left-radius: var(--radius-lg);
+  }
   .rounded-tr {
     border-top-right-radius: 0.25rem;
   }
   .rounded-tr-2xl {
     border-top-right-radius: var(--radius-2xl);
+  }
+  .rounded-tr-lg {
+    border-top-right-radius: var(--radius-lg);
+  }
+  .rounded-b {
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+  }
+  .rounded-br {
+    border-bottom-right-radius: 0.25rem;
+  }
+  .rounded-br-lg {
+    border-bottom-right-radius: var(--radius-lg);
+  }
+  .rounded-bl-lg {
+    border-bottom-left-radius: var(--radius-lg);
   }
   .border {
     border-style: var(--tw-border-style);
@@ -556,11 +590,20 @@
   .px-\[55px\] {
     padding-inline: 55px;
   }
+  .py-0 {
+    padding-block: calc(var(--spacing) * 0);
+  }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
   }
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
+  }
+  .py-3\.5 {
+    padding-block: calc(var(--spacing) * 3.5);
+  }
+  .py-4 {
+    padding-block: calc(var(--spacing) * 4);
   }
   .py-5 {
     padding-block: calc(var(--spacing) * 5);
@@ -568,8 +611,17 @@
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
   }
+  .py-15 {
+    padding-block: calc(var(--spacing) * 15);
+  }
+  .py-20 {
+    padding-block: calc(var(--spacing) * 20);
+  }
   .py-\[15px\] {
     padding-block: 15px;
+  }
+  .py-\[25px\] {
+    padding-block: 25px;
   }
   .py-\[30px\] {
     padding-block: 30px;
@@ -589,14 +641,35 @@
   .pr-10 {
     padding-right: calc(var(--spacing) * 10);
   }
+  .pr-11 {
+    padding-right: calc(var(--spacing) * 11);
+  }
+  .pr-11\.5 {
+    padding-right: calc(var(--spacing) * 11.5);
+  }
+  .pr-12 {
+    padding-right: calc(var(--spacing) * 12);
+  }
+  .pr-15 {
+    padding-right: calc(var(--spacing) * 15);
+  }
   .pr-20 {
     padding-right: calc(var(--spacing) * 20);
   }
   .pr-25 {
     padding-right: calc(var(--spacing) * 25);
   }
+  .pb-20 {
+    padding-bottom: calc(var(--spacing) * 20);
+  }
+  .pl-1 {
+    padding-left: calc(var(--spacing) * 1);
+  }
   .pl-4 {
     padding-left: calc(var(--spacing) * 4);
+  }
+  .pl-5 {
+    padding-left: calc(var(--spacing) * 5);
   }
   .text-center {
     text-align: center;
@@ -698,6 +771,10 @@
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
+  }
+  .outline-none {
+    --tw-outline-style: none;
+    outline-style: none;
   }
 }
 @property --tw-border-style {
