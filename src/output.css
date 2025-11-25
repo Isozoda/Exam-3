@@ -234,6 +234,9 @@
   .mb-100 {
     margin-bottom: calc(var(--spacing) * 100);
   }
+  .mb-120 {
+    margin-bottom: calc(var(--spacing) * 120);
+  }
   .mb-150 {
     margin-bottom: calc(var(--spacing) * 150);
   }
@@ -315,6 +318,18 @@
   .mb-\[px\] {
     margin-bottom: px;
   }
+  .ml-2 {
+    margin-left: calc(var(--spacing) * 2);
+  }
+  .ml-3 {
+    margin-left: calc(var(--spacing) * 3);
+  }
+  .ml-3\.5 {
+    margin-left: calc(var(--spacing) * 3.5);
+  }
+  .ml-4 {
+    margin-left: calc(var(--spacing) * 4);
+  }
   .ml-5 {
     margin-left: calc(var(--spacing) * 5);
   }
@@ -375,6 +390,9 @@
   .w-\[9px\] {
     width: 9px;
   }
+  .w-\[75\%\] {
+    width: 75%;
+  }
   .w-\[80\%\] {
     width: 80%;
   }
@@ -392,6 +410,9 @@
   }
   .w-\[388px\] {
     width: 388px;
+  }
+  .w-\[705\%\] {
+    width: 705%;
   }
   .border-collapse {
     border-collapse: collapse;
@@ -849,6 +870,46 @@
       display: inline;
     }
   }
+  .md\:w-\[3\] {
+    @media (width >= 48rem) {
+      width: 3;
+    }
+  }
+  .md\:w-\[3px\] {
+    @media (width >= 48rem) {
+      width: 3px;
+    }
+  }
+  .md\:w-\[33\] {
+    @media (width >= 48rem) {
+      width: 33;
+    }
+  }
+  .md\:w-\[75\%\] {
+    @media (width >= 48rem) {
+      width: 75%;
+    }
+  }
+  .md\:w-\[330px\] {
+    @media (width >= 48rem) {
+      width: 330px;
+    }
+  }
+  .md\:w-\[340px\] {
+    @media (width >= 48rem) {
+      width: 340px;
+    }
+  }
+  .md\:w-\[350px\] {
+    @media (width >= 48rem) {
+      width: 350px;
+    }
+  }
+  .md\:w-\[360px\] {
+    @media (width >= 48rem) {
+      width: 360px;
+    }
+  }
   .md\:w-auto {
     @media (width >= 48rem) {
       width: auto;
@@ -857,6 +918,16 @@
   .md\:grid-cols-3 {
     @media (width >= 48rem) {
       grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+  .md\:justify-around {
+    @media (width >= 48rem) {
+      justify-content: space-around;
+    }
+  }
+  .md\:justify-between {
+    @media (width >= 48rem) {
+      justify-content: space-between;
     }
   }
   .md\:text-start {
