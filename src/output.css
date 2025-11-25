@@ -17,8 +17,11 @@
     --text-2xl--line-height: calc(2 / 1.5);
     --text-3xl: 1.875rem;
     --text-3xl--line-height: calc(2.25 / 1.875);
+    --font-weight-medium: 500;
     --font-weight-bold: 700;
     --font-weight-black: 900;
+    --radius-sm: 0.25rem;
+    --radius-lg: 0.5rem;
     --radius-2xl: 1rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
@@ -182,6 +185,9 @@
   .mt-3 {
     margin-top: calc(var(--spacing) * 3);
   }
+  .mt-5 {
+    margin-top: calc(var(--spacing) * 5);
+  }
   .mb-0 {
     margin-bottom: calc(var(--spacing) * 0);
   }
@@ -209,6 +215,9 @@
   .mb-25 {
     margin-bottom: calc(var(--spacing) * 25);
   }
+  .mb-\[1px\] {
+    margin-bottom: 1px;
+  }
   .mb-\[5px\] {
     margin-bottom: 5px;
   }
@@ -217,6 +226,9 @@
   }
   .mb-\[10px\] {
     margin-bottom: 10px;
+  }
+  .mb-\[11\] {
+    margin-bottom: 11;
   }
   .mb-\[11px\] {
     margin-bottom: 11px;
@@ -338,6 +350,18 @@
   .gap-350 {
     gap: calc(var(--spacing) * 350);
   }
+  .gap-\[3px\] {
+    gap: 3px;
+  }
+  .gap-\[32\] {
+    gap: 32;
+  }
+  .gap-\[32px\] {
+    gap: 32px;
+  }
+  .gap-\[34px\] {
+    gap: 34px;
+  }
   .rounded {
     border-radius: 0.25rem;
   }
@@ -352,6 +376,12 @@
   }
   .rounded-\[37px\] {
     border-radius: 37px;
+  }
+  .rounded-lg {
+    border-radius: var(--radius-lg);
+  }
+  .rounded-sm {
+    border-radius: var(--radius-sm);
   }
   .rounded-t {
     border-top-left-radius: 0.25rem;
@@ -380,6 +410,9 @@
   .border-\[\#A9D6FF\] {
     border-color: #A9D6FF;
   }
+  .border-\[\#DEDEDE\] {
+    border-color: #DEDEDE;
+  }
   .border-\[\#E6E6E6\] {
     border-color: #E6E6E6;
   }
@@ -400,6 +433,9 @@
   }
   .bg-\[\#F9F9F9\] {
     background-color: #F9F9F9;
+  }
+  .bg-\[\#FAFAFA\] {
+    background-color: #FAFAFA;
   }
   .bg-amber-50 {
     background-color: var(--color-amber-50);
@@ -443,6 +479,18 @@
   .px-50 {
     padding-inline: calc(var(--spacing) * 50);
   }
+  .px-\[5px\] {
+    padding-inline: 5px;
+  }
+  .px-\[35px\] {
+    padding-inline: 35px;
+  }
+  .px-\[45px\] {
+    padding-inline: 45px;
+  }
+  .px-\[55px\] {
+    padding-inline: 55px;
+  }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
   }
@@ -463,6 +511,12 @@
   }
   .pt-20 {
     padding-top: calc(var(--spacing) * 20);
+  }
+  .pt-\[1\] {
+    padding-top: 1;
+  }
+  .pt-\[113px\] {
+    padding-top: 113px;
   }
   .pr-10 {
     padding-right: calc(var(--spacing) * 10);
@@ -513,6 +567,10 @@
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
+  }
+  .font-medium {
+    --tw-font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-medium);
   }
   .text-\[\#\#252B42\] {
     color: ##252B42;
