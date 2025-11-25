@@ -4,3 +4,10 @@
     background-position: center;
     background-repeat: no-repeat; 
 }
+
+@media (max-width: 500px) {
+    .background1 {
+        height: 100vh;
+        background-position: left;
+    }
+}
